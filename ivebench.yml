@@ -1,4 +1,4 @@
-name: cyn_mybenchmark_dino_2
+name: ivebench
 channels:
   - defaults
 dependencies:
@@ -181,4 +181,3 @@ dependencies:
       - xxhash==3.5.0
       - yapf==0.43.0
       - yarl==1.20.0
-prefix: /z_data/miniconda3/envs/cyn_mybenchmark_dino
