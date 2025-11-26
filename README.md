@@ -58,7 +58,7 @@ This repository is a comprehensive collection of resources for **IVEBench**, If 
 
 - [x] [InsV2V](https://github.com/amazon-science/instruct-video-to-video), [StableV2V](https://github.com/AlonzoLeeeooo/StableV2V), [AnyV2V](https://github.com/TIGER-AI-Lab/AnyV2V), [VACE](https://github.com/ali-vilab/VACE)
 - [x] [Lucy-Edit-Dev](https://huggingface.co/decart-ai/Lucy-Edit-Dev), [Omni-Video](https://github.com/SAIS-FUXI/Omni-Video), [ICVE](https://github.com/leoisufa/ICVE)
-- [ ] [Ditto](https://github.com/EzioBy/Ditto)
+- [x] [Ditto](https://github.com/EzioBy/Ditto)
 
 **🤓 You can view the scores and comparisons of each method at [IVEBench LeaderBoard](https://ryanchenyn.github.io/projects/IVEBench/#leaderboard).**
 
