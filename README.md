@@ -54,11 +54,12 @@ This repository is a comprehensive collection of resources for **IVEBench**, If 
 
 
 
-**📝 Evaluation To-Do:**
+**📝 To-Do:**
 
-- [x] [InsV2V](https://github.com/amazon-science/instruct-video-to-video), [StableV2V](https://github.com/AlonzoLeeeooo/StableV2V), [AnyV2V](https://github.com/TIGER-AI-Lab/AnyV2V), [VACE](https://github.com/ali-vilab/VACE)
-- [x] [Lucy-Edit-Dev](https://huggingface.co/decart-ai/Lucy-Edit-Dev), [Omni-Video](https://github.com/SAIS-FUXI/Omni-Video), [ICVE](https://github.com/leoisufa/ICVE)
-- [x] [Ditto](https://github.com/EzioBy/Ditto)
+- [x] Update Evaluation Results: [InsV2V](https://github.com/amazon-science/instruct-video-to-video), [StableV2V](https://github.com/AlonzoLeeeooo/StableV2V), [AnyV2V](https://github.com/TIGER-AI-Lab/AnyV2V), [VACE](https://github.com/ali-vilab/VACE)
+- [x] Update Evaluation Results: [Lucy-Edit-Dev](https://huggingface.co/decart-ai/Lucy-Edit-Dev), [Omni-Video](https://github.com/SAIS-FUXI/Omni-Video), [ICVE](https://github.com/leoisufa/ICVE)
+- [x] Update Evaluation Results: [Ditto](https://github.com/EzioBy/Ditto)
+- [x] Supports adjusting weights for each dimension.
 
 **🤓 You can view the scores and comparisons of each method at [IVEBench LeaderBoard](https://ryanchenyn.github.io/projects/IVEBench/#leaderboard).**
 

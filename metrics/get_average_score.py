@@ -7,12 +7,15 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Calculate the average score based on the scores of each video")
     parser.add_argument("--input", "-i", required=True, help="path to each video score csv file")
     parser.add_argument("--output", "-o", required=True, help="path to save average score csv file")
+    parser.add_argument("--quality_weight", type=float, default=1.0, help="Weight for quality dimension")
+    parser.add_argument("--compliance_weight", type=float, default=1.0, help="Weight for compliance dimension")
+    parser.add_argument("--fidelity_weight", type=float, default=1.0, help="Weight for fidelity dimension")
     args = parser.parse_args()
     return args.input, args.output
 
 
 def main():
-    input_file, output_file = parse_args()
+    input_file, output_file, q_weight, c_weight, f_weight = parse_args()
 
     df = pd.read_csv(input_file)
 
@@ -83,9 +86,23 @@ def main():
         else:
             dimension_scores[category] = np.nan
 
-    valid_dims = [v for v in dimension_scores.values() if not pd.isna(v)]
-    if valid_dims:
-        total_score = sum(valid_dims) / len(valid_dims)
+    dim_weights = {
+        "quality": q_weight,
+        "compliance": c_weight,
+        "fidelity": f_weight
+    }
+
+    final_weighted_sum = 0
+    final_total_weight = 0
+
+    for dim, score in dimension_scores.items():
+        if not pd.isna(score):
+            w = dim_weights.get(dim, 1.0)
+            final_weighted_sum += score * w
+            final_total_weight += w
+
+    if final_total_weight > 0:
+        total_score = final_weighted_sum / final_total_weight
     else:
         total_score = np.nan
 
