@@ -3,7 +3,6 @@
 <img width="765" alt="image" src="assets/title.png">
      </a>
    <p align="center">
-
 <p align="center">
     <a href="https://scholar.google.com.hk/citations?user=-WKfgd0AAAAJ&hl=zh-CN"><strong>Yinan Chen <sup>1★</sup></strong></a>
     ·
@@ -19,7 +18,7 @@
     ·
     <a href="https://scholar.google.com/citations?user=fqte5H4AAAAJ"><strong>Chengjie Wang <sup>2,3</sup></strong></a>
     ·
-    <a href="https://scholar.google.com/citations?user=qYcgBbEAAAAJ"><strong>Yong Liu <sup>1</sup></strong></a>
+    <a href="https://scholar.google.com/citations?user=qYcgBbEAAAAJ"><strong>Yong Liu <sup>1†</sup></strong></a>
     ·
     <a href="https://huuxiaobin.github.io/"><strong>Xiaobin Hu <sup>2</sup></strong></a>
     ·
@@ -42,6 +41,7 @@
       <img src='https://img.shields.io/badge/IVEBench-Website-green?style=flat&logo=googlechrome&logoColor=green' alt='webpage-Web'>
          </a>
 </p>
+
 <a name="introduction"></a>
 
 # :blush:Continuous Updates
@@ -236,11 +236,11 @@ Comparative demonstrations of the source videos and the target videos generated 
 If you If you find [IVEBench](https://ryanchenyn.github.io/projects/IVEBench) useful for your research, please consider giving a star⭐ and citation📝 :)
 
 ```
-@article{chen2025ivebench,
+@inproceedings{chen2026ivebench,
   title={IVEBench: Modern Benchmark Suite for Instruction-Guided Video Editing Assessment},
   author={Chen, Yinan and Zhang, Jiangning and Hu, Teng and Zeng, Yuxiang and Xue, Zhucun and He, Qingdong and Wang, Chengjie and Liu, Yong and Hu, Xiaobin and Yan, Shuicheng},
-  journal={arXiv preprint arXiv:2510.11647},
-  year={2025}
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  year={2026}
 }
 ```
 
