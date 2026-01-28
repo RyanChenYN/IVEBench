@@ -54,13 +54,15 @@ This repository is a comprehensive collection of resources for **IVEBench**, If 
 
 
 
-**📝 To-Do:**
+**📝 Update:**
 
-- [x] Update Evaluation Results: [InsV2V](https://github.com/amazon-science/instruct-video-to-video), [StableV2V](https://github.com/AlonzoLeeeooo/StableV2V), [AnyV2V](https://github.com/TIGER-AI-Lab/AnyV2V), [VACE](https://github.com/ali-vilab/VACE)
-- [x] Update Evaluation Results: [Lucy-Edit-Dev](https://huggingface.co/decart-ai/Lucy-Edit-Dev), [Omni-Video](https://github.com/SAIS-FUXI/Omni-Video), [ICVE](https://github.com/leoisufa/ICVE)
-- [x] Update Evaluation Results: [Ditto](https://github.com/EzioBy/Ditto)
-- [x] Supports adjusting weights for each dimension.
-- [ ] Update Evaluation Results: [UniVideo](https://github.com/KlingTeam/UniVideo)
+- **[2026-01-27]** IVEBench has been accepted by **ICLR 2026**.🎉🎉🎉
+- **[2025-11-27]** Supports adjusting weights for each dimension.
+
+- **[2025-11-26]** Update Evaluation Results: [Ditto](https://github.com/EzioBy/Ditto)
+
+- **[2025-10-23]** Update Evaluation Results: [Lucy-Edit-Dev](https://huggingface.co/decart-ai/Lucy-Edit-Dev), [Omni-Video](https://github.com/SAIS-FUXI/Omni-Video), [ICVE](https://github.com/leoisufa/ICVE)
+- **[2025-10-16]** Update Evaluation Results: [InsV2V](https://github.com/amazon-science/instruct-video-to-video), [StableV2V](https://github.com/AlonzoLeeeooo/StableV2V), [AnyV2V](https://github.com/TIGER-AI-Lab/AnyV2V), [VACE](https://github.com/ali-vilab/VACE)
 
 **🤓 You can view the scores and comparisons of each method at [IVEBench LeaderBoard](https://ryanchenyn.github.io/projects/IVEBench/#leaderboard).**
 
